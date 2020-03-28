@@ -12,4 +12,16 @@ public class Node {
     String name;
     int roll;
     Node next;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getRoll() {
+        return roll;
+    }
+
+    public Node getNext() {
+        return next;
+    }
 }
