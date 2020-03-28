@@ -27,7 +27,9 @@ public class MyBinarySearchTree {
             root = ns;
         } else {
             TreeNode current = root;
+            while (true) {
 
+            }
         }
     }
 }
