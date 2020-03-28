@@ -7,4 +7,15 @@
 package problem5.student;
 // to store student information and properties
 public class Student {
+
+    int roll;
+    int a_count;
+    int backlog;
+
+    public Student(int roll, int backlog, int a_count) {
+        this.roll = roll;
+        this.a_count = a_count;
+        this.backlog = backlog;
+    }
+
 }
