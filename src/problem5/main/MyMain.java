@@ -15,5 +15,7 @@ public class MyMain {
         obj.enqueue(4, 2, 1);
         obj.enqueue(5, 2, 2);
         obj.enqueue(6, 0, 0);
+        obj.removeBackLog();
+        obj.display();
     }
 }
