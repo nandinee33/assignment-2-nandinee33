@@ -4,6 +4,7 @@ package problem4.main;
 // use problem1.mybst.MyBinarySearchTree class for creating binary tree
 
 import problem1.mybst.MyBinarySearchTree;
+import problem4.myqueue.MyQueue;
 
 public class MyMain {
     public static void main(String[] args) {
@@ -15,6 +16,10 @@ public class MyMain {
         obj.insert(13);
         obj.insert(1);
         obj.insert(7);
+
+        MyQueue mq = new MyQueue();
+        mq.preSuccessor(obj.getroot());
+        mq.getPreSucc();
     }
 
 }
