@@ -49,4 +49,15 @@ public class MyBinarySearchTree {
             }
         }
     }
+
+    private void LeftNode(TreeNode root) {
+        if (root == null) {
+            return;
+        } else {
+            if (root.getLeft() != null) System.out.println(root.getLeft().getdata());
+            else count++;
+            LeftNode(root.getLeft());
+            LeftNode(root.getRight());
+        }
+    }
 }
