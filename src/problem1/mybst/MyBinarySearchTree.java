@@ -1,8 +1,8 @@
 /*
  *  Created by IntelliJ IDEA.
- *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:17 PM
+ *  User: nandinee
+ *  Date: 28-Mar-20
+ *  Time: 3:00 PM
  */
 package problem1.mybst;
 
@@ -39,7 +39,12 @@ public class MyBinarySearchTree {
                     }
 
                 } else {
-
+                    if (current.getLeft() == null) {
+                        current.setLeft(ns);
+                        break;
+                    } else {
+                        current = current.getLeft();
+                    }
                 }
             }
         }
