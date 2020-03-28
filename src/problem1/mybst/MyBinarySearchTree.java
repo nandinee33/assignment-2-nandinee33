@@ -60,4 +60,8 @@ public class MyBinarySearchTree {
             LeftNode(root.getRight());
         }
     }
+
+    public void printLeftNode() {
+        LeftNode(root);
+    }
 }
