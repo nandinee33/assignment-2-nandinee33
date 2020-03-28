@@ -29,6 +29,13 @@ public class MyBinarySearchTree {
             TreeNode current = root;
             while (true) {
                 if (data > current.getdata()) {
+                    if (current.getRight() == null) {
+                        current.setRight(ns);
+                        break;
+                    } else {
+                        current = current.getRight();
+                    }
+                } else {
 
                 }
             }
