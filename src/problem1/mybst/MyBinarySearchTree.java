@@ -28,7 +28,9 @@ public class MyBinarySearchTree {
         } else {
             TreeNode current = root;
             while (true) {
+                if (data > current.getdata()) {
 
+                }
             }
         }
     }
